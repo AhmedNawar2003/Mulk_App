@@ -1,0 +1,222 @@
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+@import url(static.css);
+@import url(main.css);
+@import url(Blog.css);
+@import url(Responsive/aboutPage.css);
+/* ******************************* */
+:root {
+  --e-global-color-primary: #ffd369;
+  --e-global-color-secondary: #eeeeee;
+  --e-global-color-text: #222831;
+  --e-global-color-accent: #393e46;
+  --e-global-color-e777cd9: #ffffff;
+  --e-global-color-e632858: #ffffff00;
+  --e-global-color-cff305b: #f8f8f8;
+  --e-global-color-d59e8a8: #8b8b8b;
+  --e-global-color-9947692: #ffffffd1;
+}
+body {
+  font-family: Regular-DM-Sans;
+  color: var(--e-global-color-e777cd9);
+  font-size: 16px;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+img,
+iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+/* ********************************************* */
+/* start header */
+.header {
+  height: 390px;
+  background-image: url(../img/mulk14.webp);
+}
+.header .navbar-brand {
+  position: relative;
+}
+.header .under-logo {
+  position: absolute;
+  bottom: -20px;
+  left: 50px;
+  color: var(--e-global-color-d59e8a8);
+  font-family: Regular-inter;
+  text-transform: uppercase;
+}
+/* ************************************************* */
+.before-footer .watch-video {
+  background-color: var(--e-global-color-e777cd9);
+  border: 1px solid var(--e-global-color-text);
+  color: var(--e-global-color-text);
+  transition: all 500ms;
+  &:hover {
+    background-color: var(--e-global-color-text);
+    color: var(--e-global-color-e777cd9);
+    i {
+      color: var(--e-global-color-e777cd9);
+    }
+  }
+  i {
+    margin-inline-end: 10px;
+  }
+}
+/* **************************************************** */
+/* start creative-idea */
+.creative-idea {
+  padding: 120px 0;
+  background-color: var(--e-global-color-cff305b);
+}
+.creative-idea h6 {
+  color: var(--e-global-color-d59e8a8);
+  font-family: Regular-DM-Sans;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+}
+.creative-idea h2 {
+  color: var(--e-global-color-text);
+  font-family: Medium-DM-Sans;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  margin: 16px 0;
+}
+.creative-idea p {
+  color: var(--e-global-color-text);
+  font-size: 16px;
+  font-family: Medium-inter;
+}
+.creative-idea .p-two {
+  margin-top: 16px;
+  position: relative;
+  padding-bottom: 50px;
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: #ededed;
+    height: 1px;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+  }
+}
+.creative-idea .icons {
+  gap: 100px;
+}
+.creative-idea .icons .first-span,
+.creative-idea .icons .second-span {
+  gap: 30px;
+}
+.creative-idea i {
+  font-size: 75px;
+  color: var(--e-global-color-primary);
+  position: relative;
+  top: 10px;
+}
+.creative-idea .text .number {
+  font-size: 45px;
+  color: var(--e-global-color-text);
+  font-family: Bold-inter;
+}
+.creative-idea .text .text-name {
+  font-size: 16px;
+  color: var(--e-global-color-text);
+  font-family: Regular-inter;
+  text-transform: capitalize;
+}
+.creative-idea .card-img{
+  overflow: hidden;
+}
+.creative-idea img {
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+/* End creative-idea */
+/* **************************************************** */
+/* Start years */
+.years {
+  padding: 120px 0;
+}
+.years .row {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    background-color: #ededed;
+    height: 1px;
+    right: 0;
+    left: 0;
+  }
+}
+.years .card {
+  align-items: center;
+  padding: 0 15px;
+}
+.years .year {
+  color: var(--e-global-color-d59e8a8);
+  font-size: 16px;
+  font-family: Regular-inter;
+  margin-bottom: 8px;
+  padding-top: 37px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    right: 12px;
+    background-color: var(--e-global-color-text);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+}
+.years h5 {
+  color: var(--e-global-color-text);
+  font-size: 24px;
+  font-family: Regular-inter;
+  margin-bottom: 21px;
+}
+.years p {
+  color: var(--e-global-color-text);
+  font-size: 16px;
+  font-family: Regular-inter;
+  text-align: center;
+  padding: 0 40px;
+}
+/* End years */
+/* *************************************************** */

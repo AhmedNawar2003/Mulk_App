@@ -1,0 +1,65 @@
+@font-face {
+  font-family: light-inter;
+  src: url(../fonts/inter/Inter_28pt-Light.ttf);
+}
+@font-face {
+  font-family: Regular-inter;
+  src: url(../fonts/inter/Inter_28pt-Regular.ttf);
+}
+@font-face {
+  font-family: Medium-inter;
+  src: url(../fonts/inter/Inter_28pt-Medium.ttf);
+}
+@font-face {
+  font-family: thin-inter;
+  src: url(../fonts/inter/Inter_28pt-Thin.ttf);
+}
+@font-face {
+  font-family: Bold-inter;
+  src: url(../fonts/inter/Inter_28pt-Bold.ttf);
+}
+@font-face {
+  font-family: ExtraBold-inter;
+  src: url(../fonts/inter/Inter_28pt-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Black-inter;
+  src: url(../fonts/inter/Inter_28pt-Black.ttf);
+}
+@font-face {
+  font-family: SemiBold-inter;
+  src: url(../fonts/inter/Inter_28pt-SemiBold.ttf);
+}
+/* ******************************************************* */
+@font-face {
+  font-family: light-DM-Sans;
+  src: url(../fonts/DM_Sans/DMSans-Light.ttf);
+}
+@font-face {
+  font-family: Regular-DM-Sans;
+  src: url(../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Medium-DM-Sans;
+  src: url(../fonts/DM_Sans/DMSans-Medium.ttf);
+}
+@font-face {
+  font-family: thin-DM-Sans;
+  src: url(../fonts/DM_Sans/DMSans-Thin.ttf);
+}
+@font-face {
+  font-family: Bold-DM-Sans;
+  src: url(../fonts/DM_Sans/DMSans-Bold.ttf);
+}
+@font-face {
+  font-family: ExtraBold-DM-Sans;
+  src: url(../fonts/DM_Sans/DMSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Black-DM-Sans;
+  src: url(../fonts/DM_Sans/DMSans-Black.ttf);
+}
+@font-face {
+  font-family: SemiBold-DM-Sans;
+  src: url(../fonts/DM_Sans/DMSans-SemiBold.ttf);
+}

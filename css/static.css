@@ -1,0 +1,15 @@
+:root {
+  --e-global-color-primary: #ffd369;
+  --e-global-color-secondary: #eeeeee;
+  --e-global-color-text: #222831;
+  --e-global-color-accent: #393e46;
+  --e-global-color-e777cd9: #ffffff;
+  --e-global-color-e632858: #ffffff00;
+  --e-global-color-cff305b: #f8f8f8;
+  --e-global-color-d59e8a8: #8b8b8b;
+  --e-global-color-9947692: #ffffffd1;
+}
+
+.offcanvas-body a:visited .active{
+  color: var(--e-global-color-primary) !important;
+}

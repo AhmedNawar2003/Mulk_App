@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .iframe .card-left {
+        padding-right: 0 !important;
+        margin-bottom: 30px;
+    }
+    .iframe h3 {
+        font-size: 30px !important;
+    }
+}
+/* *************************************** */
+@media (max-width: 500px) {
+    .iframe h6,
+    .iframe p,
+    .iframe a{
+        font-size: 12px !important;
+    }
+    .iframe h3 {
+        font-size: 25px !important;
+    }
+    .iframe h5 {
+        font-size: 18px !important;
+    }
+}
