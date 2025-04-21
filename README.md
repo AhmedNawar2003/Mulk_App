@@ -3,7 +3,7 @@
 A simple and clean real estate listing website with intuitive navigation.
 
 ## 🔗 Live Demo  
-[Explore it](https://timely-creponne-7b8f58.netlify.app/)
+[Live](https://timely-creponne-7b8f58.netlify.app/)
 
 ## 🛠️ Tech Stack  
 - HTML  
